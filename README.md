@@ -6,7 +6,7 @@ VSCODE
 
 PYTHON
 
-1 - baixar python https://www.python.org/downloads/ (marcar a caixinha add python 3.10 to path)
+1 - baixar python https://www.python.org/downloads/ (marcar a caixinha add python 3.10 to path na instalação)
 
 XAMPP
 
