@@ -1,3 +1,5 @@
+Você pode baixar o projeto clicando em CODE e Download ZIP
+
 Como rodar a aplicação:
 
 VSCODE
