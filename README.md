@@ -31,7 +31,7 @@ DJANGO
 
 3 - geralmente o código do pip é o seguinte "python -m pip install --upgrade pip", mas copie o código que aparece no seu computador. Rode apenas se o pip não estiver atualizado
 
-4 - dentro do vscode, aperte em "file" no canto superior esquerdo, depois "open folder" e abra a pasta "projetoPub" que é o projeto
+4 - dentro do vscode, aperte em "file" no canto superior esquerdo, depois "open folder" e abra a pasta "projetoPub" que é o projeto. Caso você tenha baixado o arquivo zipado, você precisa tirar o projeto de dentro do arquivo zipado.
 
 5 - com o terminal do vscode aberto, certifique-se que você está dentro da pasta "projetoPub" que contém o arquivo manage.py e pastas do projeto
 
