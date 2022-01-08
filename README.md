@@ -1,3 +1,5 @@
+O PROJETO NÃO ESTÁ NO "MAIN", VOCÊ TEM QUE ABRIR O "MASTER".
+
 Como rodar a aplicação:
 
 VSCODE
