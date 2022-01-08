@@ -1,5 +1,7 @@
 Você pode baixar o projeto clicando em CODE e Download ZIP
 
+Lembrando que quando falo para você digitar os códigos no terminal, você tem que digitá-los sem as aspas. Botei as aspas para vocês saberem o que tem que digitar no terminal
+
 Como rodar a aplicação:
 
 VSCODE
@@ -37,11 +39,15 @@ DJANGO
 
 6 - dentro da pasta do projeto que contém o arquivo "manage.py", digite no terminal os seguintes códigos:
 
-7 - python manage.py makemigrations
+7 - pip install mysqlclient
 
-8 - python manage.py migrate
+8 - python manage.py makemigrations
 
-9 - python manage.py runserver
+9 - python manage.py migrate
+
+10 - Após o comando anterior, você pode acessar o site do localhost/phpmyadmin, clicar em cima do projetopub e verificar que a base foi atualizada. Conterá vários campos que o django cria automaticamente, mas principalmente, conterá os campos "contas", "despesas" e "receitas"
+
+9 - Volte ao vscode e digite "python manage.py runserver"
 
 10 - com o server rodando sem erros, clique no link da penúltima linha que é o server, dê um ctrl + click em cima do link que no meu caso é "http://127.0.0.1:8000/". Clique no seu link que apareceu no terminal após a linha 8 (python manage.py runserver)
 
