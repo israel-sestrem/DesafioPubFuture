@@ -9,6 +9,7 @@ VSCODE
 PYTHON
 
 1 - baixar python https://www.python.org/downloads/ (marcar a caixinha add python 3.10 to path na instalação)
+2 - após instalar, se tiver uma opção DISABLE PATH LIMIT, clique e termine a instalação
 
 XAMPP
 
