@@ -29,7 +29,7 @@ DJANGO
 
 2 - caso não tenha reconhecido o pip e você tenha usado o terminal do vscode, tente no cmd ou vice e versa. Caso ainda não tenha funcionado, siga os passos desse site: https://dicasdepython.com.br/resolvido-pip-nao-e-reconhecido-como-um-comando-interno/
 
-3 - geralmente o código do pip é o seguinte "python -m pip install --upgrade pip". Rode apenas se o pip não estiver atualizado
+3 - geralmente o código do pip é o seguinte "python -m pip install --upgrade pip", mas copie o código que aparece no seu computador. Rode apenas se o pip não estiver atualizado
 
 4 - dentro do vscode, aperte em "file" no canto superior esquerdo, depois "open folder" e abra a pasta "projetoPub" que é o projeto
 
