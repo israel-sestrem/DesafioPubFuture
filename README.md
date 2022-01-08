@@ -40,6 +40,6 @@ DJANGO
 
 9 - com o server rodando sem erros, clique no link da penúltima linha que é o server, dê um ctrl + click em cima do link que no meu caso é "http://127.0.0.1:8000/". Clique no seu link que apareceu no terminal após a linha 8 (python manage.py runserver)
 
-10 - se tudo deu certo, o link te levou para a página inicial do meu projeto em que contém um cabeçalho com as opções Início, Receitas, Despesas, Contas e minhas redes sociais na parte da direita. No corpo tem informações sobre mim e no rodapé tem meu nome com um link para meu linkedin em cima.
+10 - se tudo deu certo, o link te levou para a página inicial do meu projeto em que contém um cabeçalho com as opções Início, Receitas, Despesas, Contas e minhas redes sociais na parte da direita. No corpo tem informações sobre mim e no rodapé tem meu nome com um link para meu linkedin no nome.
 
 Espero que você tenha conseguido abrir meu projeto na sua máquina. Obrigado!
