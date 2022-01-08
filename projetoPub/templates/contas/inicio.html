@@ -1,0 +1,57 @@
+{% extends 'base/base.html' %}
+
+{% block titulo %}
+    Contas
+{% endblock %}
+
+{% block navBar %}
+    {% include 'base/cabecalho.html' %}
+{% endblock %}
+
+{% block corpo %}
+    <div id="corpoContas">
+        <h1>Lista de Contas</h1>
+        <div class="text-center">
+            <a href="{% url 'cadastrarContas' %}">
+                <button class="btn btn-primary">Cadastrar Conta</button>
+            </a>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>N° da conta</th>
+                    <th>Saldo</th>
+                    <th>Tipo da conta</th>
+                    <th>Instituição financeira</th>
+                    <th colspan="2" id="opcoes">Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for conta in contas %}
+                    <tr>
+                        <td>{{ conta.conta }}</td>
+                        <td>R${{ conta.saldo }}</td>
+                        <td>{{ conta.tipo_conta }}</td>
+                        <td>{{ conta.instituicao_financeira }}</td>
+                        <td>
+                            <a href="{% url 'editarContas' conta.id %}">
+                                <button class="btn btn-primary">Editar</button>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{% url 'deletarContas' conta.id %}">
+                                <button class="btn btn-danger">Deletar</button>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3" class="fw-bold text-center fs-5">Saldo Total: R${{ totalSaldo }}</th>
+                    <th colspan="3" class="fw-bold text-center fs-5">Total de Contas: {{ totalContas }}</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+{% endblock %}

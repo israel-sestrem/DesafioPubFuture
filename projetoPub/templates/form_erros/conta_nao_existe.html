@@ -1,0 +1,43 @@
+{% extends 'base/base.html' %}
+
+{% block titulo %}
+    Erro - Formulário
+{% endblock %}
+
+{% block navBar %}
+    {% include 'base/cabecalho.html' %}
+{% endblock %}
+
+{% block corpo %}
+    <div id="corpoContas">
+        <h1>A conta informada não existe</h1>
+        <div class="text-center">
+            <button class="btn btn-primary" onclick="history.go(-1)">Voltar</button>
+            <a href="{% url 'cadastrarContas' %}">
+                <button class="btn btn-primary">Criar Conta</button>
+            </a>
+        </div>
+        <h1 id="contaNaoExiste">Contas disponíveis</h1>
+        <div class="text-center">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>N° da conta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for conta in contas %}
+                        <tr>
+                            <td>{{ conta.conta }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="fw-bold text-center fs-5">Total de Contas: {{ totalContas }}</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+{% endblock %}

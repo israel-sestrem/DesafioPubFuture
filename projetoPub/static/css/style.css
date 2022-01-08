@@ -1,0 +1,104 @@
+#corpo{
+    width: 700px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#corpo h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+#corpoInicio{
+    width: 800px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#corpoInicio h1{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+#corpoContas{
+    width: 800px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#corpoContas h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+#corpoDespesas{
+    width: 900px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#corpoDespesas h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+#corpoDeletarDespesa{
+    width: 850px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#corpoDeletarDespesa h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+#corpoReceitas{
+    width: 1100px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#corpoReceitas h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+#corpoDeletarReceita{
+    width: 850px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#corpoDeletarReceita h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+#campoEsquerdo{
+    width: 345px; float: left;
+}
+
+#campoDireito{
+    width: 345px; float: right;
+}
+
+#opcoes{
+    text-align: center;
+}
+
+#rodape{
+    text-align: center; 
+    font-weight: 500; 
+    color: white; 
+    margin-top: 10px;
+}
+
+#linkedin{
+    color: white;
+}
+
+#contaNaoExiste{
+    margin-top: 3%;
+}

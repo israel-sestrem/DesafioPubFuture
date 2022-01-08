@@ -1,0 +1,58 @@
+{% extends 'base/base.html' %}
+
+{% block titulo %}
+    Despesas
+{% endblock %}
+
+{% block navBar %}
+    {% include 'base/cabecalho.html' %}
+{% endblock %}
+
+{% block corpo %}
+    <div id="corpoDespesas">
+        <h1>Lista de Despesas</h1>
+        <div class="text-center">
+            <a href="{% url 'cadastrarDespesas' %}">
+                <button class="btn btn-primary">Cadastrar Despesa</button>
+            </a>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Valor</th>
+                    <th>Data de pagamento</th>
+                    <th>Data de pagamento esperado</th>
+                    <th>Tipo de despesa</th>
+                    <th>N° da Conta</th>
+                    <th colspan="2" id="opcoes">Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for despesa in despesas %}
+                    <tr>
+                        <td>R${{ despesa.valor }}</td>
+                        <td>{{ despesa.data_pagamento }}</td>
+                        <td>{{ despesa.data_pagamento_esperado }}</td>
+                        <td>{{ despesa.tipo_despesa }}</td>
+                        <td>{{ despesa.conta }}</td>
+                        <td>
+                            <a href="{% url 'editarDespesas' despesa.id %}">
+                                <button class="btn btn-primary">Editar</button>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{% url 'deletarDespesas' despesa.id %}">
+                                <button class="btn btn-danger">Deletar</button>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="7" class="fw-bold text-center fs-5">Total de Despesas: {{ totalDespesas }}</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+{% endblock %}
