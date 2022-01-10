@@ -1,0 +1,114 @@
+Todas as páginas do projeto contém o menu superior e o rodapé
+Obs: Após qualquer atualização de registros como cadastrar, editar e deletar, a base de dados já é automaticamente atualizada
+
+PÁGINA INICIAL
+
+	Menu superior
+		- Início (página inicial)
+		- Receitas
+		- Despesas
+		- Contas
+		- Meu linkedin, github e instagram(alinhado à direita)
+		
+	Conteúdo
+		- informações importantes sobre mim
+	
+	Rodapé
+		- meu nome como o desenvolvedor do projeto
+
+RECEITAS
+	
+	Contém uma tabela com todas as receitas cadastradas listadas pela data inicial com o total de receitas no pé da tabela
+	
+	Cadastrar receita
+		- Você pode cadastrar uma receita clicando no botão "Cadastrar Receita", disponível logo abaixo do título "Lista de Receitas"
+		- Dentro da página de cadastro, você pode fornecer as informações nos campos
+		- Você tem as opções de Cadastrar a receita, Apagar as informações dos campos e voltar à página de receitas
+		- Você não conseguirá cadastrar se estiver algum campo não preenchido
+		- Se você informar um número de uma conta que não existe, Você será redirecionado para uma página de erro com as seguintes informações:
+			- Uma mensagem dizendo que a conta informada não existe
+			- Um botão de voltar para o cadastro da receita e outro botão para criar uma conta que vai redirecioná-lo à página de cadastro de Contas
+			- E abaixo, uma tabela listando as contas disponíveis
+		- Após cadastrar a receita, você será redirecionado de volta à pagina de receitas com a receita que você cadastrou na tabela
+	
+	Editar receita
+		- Você pode editar uma receita clicando no botão "Editar" na linha da tabela onde contém a receita desejada
+		- Dentro da página de edição, as informações da receita escolhida estarão nos campos e você poderá editá-las
+		- Você tem as opções de editar a receita e de voltar à página de receitas
+		- Você não conseguirá editar se estiver algum campo não preenchido
+		- Se você informar um número de uma conta que não existe, Você será redirecionado para uma página de erro com as seguintes informações:
+			- Uma mensagem dizendo que a conta informada não existe
+			- Um botão de voltar para a edição da receita e outro botão para criar uma conta que vai redirecioná-lo à página de cadastro de Contas
+			- E abaixo, uma tabela listando as contas disponíveis
+		- Após editar a receita, você será redirecionado de volta à pagina de receitas com a receita que você editou atualizada na tabela
+	
+	Deletar receita
+		- Você pode deletar uma receita clicando no botão "Deletar" na linha da tabela onde contém a receita desejada
+		- Dentro da página de deletar, as informações da receita escolhida estarão listadas em uma tabela
+		- Você tem as opções de deletar a receita e de cancelar, que volta à página de receitas
+		- Após deletar a receita, você será redirecionado de volta à pagina de receitas com a receita que você deletou removida da tabela
+
+DESPESAS
+	
+	Contém uma tabela com todas as despesas cadastradas listadas pela data inicial com o total de despesas no pé da tabela
+	
+	Cadastrar despesa
+		- Você pode cadastrar uma despesa clicando no botão "Cadastrar Despesa", disponível logo abaixo do título "Lista de Despesas"
+		- Dentro da página de cadastro, você pode fornecer as informações nos campos
+		- Você tem as opções de Cadastrar a despesa, Apagar as informações dos campos e voltar à página de despesas
+		- Você não conseguirá cadastrar se estiver algum campo não preenchido
+		- Se você informar um número de uma conta que não existe, Você será redirecionado para uma página de erro com as seguintes informações:
+			- Uma mensagem dizendo que a conta informada não existe
+			- Um botão de voltar para o cadastro da despesa e outro botão para criar uma conta que vai redirecioná-lo à página de cadastro de Contas
+			- E abaixo, uma tabela listando as contas disponíveis
+		- Após cadastrar a despesa, você será redirecionado de volta à pagina de despesas com a despesa que você cadastrou na tabela
+	
+	Editar despesa
+		- Você pode editar uma despesa clicando no botão "Editar" na linha da tabela onde contém a despesa desejada
+		- Dentro da página de edição, as informações da despesa escolhida estarão nos campos e você poderá editá-las
+		- Você tem as opções de editar a despesa e de voltar à página de despesas
+		- Você não conseguirá editar se estiver algum campo não preenchido
+		- Se você informar um número de uma conta que não existe, Você será redirecionado para uma página de erro com as seguintes informações:
+			- Uma mensagem dizendo que a conta informada não existe
+			- Um botão de voltar para a edição da despesa e outro botão para criar uma conta que vai redirecioná-lo à página de cadastro de Contas
+			- E abaixo, uma tabela listando as contas disponíveis
+		- Após editar a despesa, você será redirecionado de volta à pagina de despesas com a despesa que você editou atualizada na tabela
+	
+	Deletar despesa
+		- Você pode deletar uma despesa clicando no botão "Deletar" na linha da tabela onde contém a despesa desejada
+		- Dentro da página de deletar, as informações da despesa escolhida estarão listadas em uma tabela
+		- Você tem as opções de deletar a despesa e de cancelar, que volta à página de despesas
+		- Após deletar a despesa, você será redirecionado de volta à pagina de despesas com a despesa que você deletou removida da tabela
+		
+CONTAS
+	
+	Contém uma tabela com todas as contas cadastradas listadas de forma crescente(das primeiras contas às últimas) com o saldo total das contas 
+	e o total de contas no pé da tabela
+	
+	Cadastrar conta
+		- Você pode cadastrar uma conta clicando no botão "Cadastrar Conta", disponível logo abaixo do título "Lista de Contas"
+		- Dentro da página de cadastro, você pode fornecer as informações nos campos
+		- Você tem as opções de Cadastrar a conta, Apagar as informações dos campos e voltar à página de contas
+		- Você não conseguirá cadastrar se estiver algum campo não preenchido
+		- Se você tentar cadastrar um número de uma conta que já existe, Você será redirecionado para uma página de erro com as seguintes informações:
+			- Uma mensagem dizendo que a conta informada já existe
+			- E um botão de Voltar para a página de cadastro de contas
+		- Após cadastrar a conta, você será redirecionado de volta à pagina de contas com a conta que você cadastrou na tabela
+	
+	Editar conta
+		- Você pode editar uma conta clicando no botão "Editar" na linha da tabela onde contém a conta desejada
+		- Dentro da página de edição, as informações da conta escolhida estarão nos campos e você poderá editá-las
+		- Você tem as opções de editar a conta e de voltar à página de contas
+		- Você não conseguirá editar se estiver algum campo não preenchido
+		- Se você tentar editar para um número de uma conta que já existe, Você será redirecionado para uma página de erro com as seguintes informações:
+			- Uma mensagem dizendo que a conta informada já existe
+			- E um botão de Voltar para a página de edição de contas
+		- Após editar a conta, você será redirecionado de volta à pagina de contas com a conta que você editou atualizada na tabela
+	
+	Deletar conta
+		- Você pode deletar uma conta clicando no botão "Deletar" na linha da tabela onde contém a conta desejada
+		- Dentro da página de deletar, as informações da conta escolhida estarão listadas em uma tabela
+		- Você tem as opções de deletar a conta e de cancelar, que volta à página de contas
+		- Após deletar a conta, você será redirecionado de volta à pagina de contas com a conta que você deletou removida da tabela
+		
+Espero que tenha gostado do meu projeto. Obrigado!
