@@ -53,4 +53,6 @@ DJANGO
 
 13 - se tudo deu certo, o link te levou para a página inicial do meu projeto em que contém um cabeçalho com as opções Início, Receitas, Despesas, Contas e minhas redes sociais na parte da direita. No corpo tem informações sobre mim e no rodapé tem meu nome com um link para meu linkedin no nome.
 
+obs: As receitas e despesas já estão ordenadas pela data inicial
+
 Espero que você tenha conseguido abrir meu projeto na sua máquina com sucesso. Obrigado!
