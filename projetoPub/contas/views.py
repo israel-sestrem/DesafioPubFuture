@@ -40,7 +40,11 @@ def editar_contas(request, id):
             form.save()
             return redirect('listarContas')
         else:
-            return redirect('formErroValidacao')
+            try:
+                conta = Conta.objects.get(conta=form['conta'].value())
+                return redirect('contaCadastrada')
+            except:
+                return redirect('formErroValidacao')
     else:
         return render(request, 'contas/editar_contas.html', {'conta' : conta})
 
