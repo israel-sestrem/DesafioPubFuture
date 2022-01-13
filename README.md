@@ -1,3 +1,9 @@
+Tecnologias utilizadas: 
+  - Python com framework Django
+  - HTML e CSS
+  - Bootstrap
+  - MySQL
+
 Você pode baixar o projeto clicando em CODE e Download ZIP
 
 Lembrando que quando falo para você digitar os códigos no terminal, você tem que digitá-los sem as aspas. Botei as aspas para vocês saberem o que tem que digitar no terminal
