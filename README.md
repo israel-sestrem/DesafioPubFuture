@@ -61,8 +61,13 @@ DJANGO
 
 obs: As receitas e despesas já estão ordenadas pela data inicial
 
-Vídeo do projeto:
-![image](https://user-images.githubusercontent.com/79377858/149260353-151b04b1-105a-4415-93aa-0a02551e63ec.png)
-
-
 Espero que você tenha conseguido abrir meu projeto na sua máquina com sucesso. Obrigado!
+
+Fotos do projeto:
+![image](https://user-images.githubusercontent.com/79377858/149260685-dd1f6cda-7632-4416-8f3e-b03192f5742b.png)
+![image](https://user-images.githubusercontent.com/79377858/149260719-9f18d009-ef44-4be1-bfe0-bc2f9ffa665f.png)
+![image](https://user-images.githubusercontent.com/79377858/149260743-cf54089f-0867-45f1-8755-a033f26e912e.png)
+![image](https://user-images.githubusercontent.com/79377858/149260832-bc6993c8-0a60-457f-89fc-9da278c313fd.png)
+
+
+
