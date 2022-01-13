@@ -61,4 +61,8 @@ DJANGO
 
 obs: As receitas e despesas já estão ordenadas pela data inicial
 
+Vídeo do projeto:
+![image](https://user-images.githubusercontent.com/79377858/149260353-151b04b1-105a-4415-93aa-0a02551e63ec.png)
+
+
 Espero que você tenha conseguido abrir meu projeto na sua máquina com sucesso. Obrigado!
